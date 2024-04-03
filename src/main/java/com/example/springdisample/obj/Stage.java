@@ -8,6 +8,7 @@ public class Stage {
     // @Autowired
     private Singer singer;
 
+    @Autowired
     public Stage(Singer singer) {
         System.out.println("Stage is ready");
         this.singer = singer;
