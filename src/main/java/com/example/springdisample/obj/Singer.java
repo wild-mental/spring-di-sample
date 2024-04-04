@@ -21,6 +21,10 @@ public class Singer {
     }
 
     public void sing() {
+        if (name == null || song == null) {
+            System.out.println("Singer is singing");
+            return;
+        }
         System.out.println(name + " is singing " + song);
     }
 }
